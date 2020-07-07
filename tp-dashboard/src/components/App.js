@@ -7,6 +7,7 @@ import Card from './Card';
 import LastProduct from './LastProduct';
 import Categories from './Categories';
 import Footer from './Footer';
+import Table from './Table';
 
 const cardData = [
 	{
@@ -63,6 +64,10 @@ function App() {
 							<LastProduct/>
 							<Categories/>
 						</div>
+
+						<h1 className="h3 mb-2 text-gray-800">All the products in the Database</h1>
+						{/* Table */}
+						<Table />
 					</div>
 				</div>
 				

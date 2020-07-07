@@ -1,0 +1,28 @@
+[
+	{
+		"id": 1,
+		"name": "Tiger Nixon",
+		"description": "System Architect",
+		"price": 320.800,
+		"categories": [ 
+			{"id": 1, "name": "Tech"},
+			{"id": 2, "name": "Fashion"},
+			{"id": 3, "name": "Home"}
+		],
+		"colors": ["red", "blue", "orange"],
+		"stock": 234
+	},
+	{
+		"id": 2,
+		"name": "Smartphone LG",
+		"description": "Technology Asociation",
+		"price": 34.654,
+		"categories": [ 
+			{"id": 1, "name": "Tech"},
+			{"id": 2, "name": "Fashion"},
+			{"id": 3, "name": "Home"}
+		],
+		"colors": ["yellow", "red", "blue"],
+		"stock": 12
+	}
+]
