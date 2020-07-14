@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Card (props) {
-	console.log(props.number);
-	
+function Card (props) {	
 	let { data } = props;
 	data.img = data.img !== '' ? data.img : 'no-image.jpg';
 

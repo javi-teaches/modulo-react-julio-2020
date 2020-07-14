@@ -3,6 +3,8 @@ import React from 'react';
 // Componentes
 import Character from './Character';
 import Product from './Product';
+import Counter from './Counter';
+import RickMorty from './RickMorty';
 
 // Data
 import products from '../data/products.json';
@@ -36,6 +38,9 @@ const characters = [
 function App () {
 	return (
 		<div className="container" id="algo">
+
+			<RickMorty/>
+			<Counter/>
 
 			<div className="row">
 				{
